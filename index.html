@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1, h4{
+            text-align: center;
+        }
+        .container{
+            box-sizing:content-box;
+            margin: auto;
+        }
+        .product{
+            height: 240px;
+            width: 190px;
+            border: 1px solid black;
+            border-radius: 30px;
+            display: flex;
+            float: left;
+            margin: 1%;
+        }
+        span{
+            margin-top: 200px;
+            
+        }
+        p{
+            text-align: center;
+            margin: auto;
+            font-size: 20px;
+        }
+        hr{
+            width: 100%;
+        }
+        img{
+            height: 140px;
+            margin-bottom: 20px;
+            margin-left: auto;
+        }
+         @media screen and (min-width:850px){ 
+            .product {
+                margin: 1%;
+            }}
+        @media screen and (min-width:1000px){ 
+            .product {
+                margin: 1%;
+                height: 220px;
+                width: 170px;!
+            }}
+         @media screen and (min-width:1100px){ 
+            .product {
+                margin: 2px;
+            }
+        }
+          
+    </style>
+</head>
+<body>
+   <h1>What do i have in my gridge?</h1>
+   
+   <div class="container">
+        <div class="product" id="paper"><p><img src="pepper.png" alt=""><br>Pepper</p></div>
+        <div class="product" id="apple"><p><img src="apple.png" alt=""><br>Aplle</p></div>
+        <div class="product" id="cheese"><p><img src="cheese.png" alt=""><br>Cheese</p></div>
+        <div class="product" id="corn"><p><img src="corn.png" alt=""><br>Corn</p></div>
+        <div class="product" id="mushroom"><p><img src="mushroom.png" alt=""><br>Mushroom</p></div>
+        <div class="product" id="garlic"><p><img src="garlic.png" alt=""><br>Garlic</p></div>
+        <div class="product" id="beef"><p><img src="beef.png" alt=""><br>Beef</p></div>
+        <div class="product" id="fish"><p><img src="fish.png" alt=""><br>Fish</p></div>
+        <div class="product" id="eggs"><p><img src="eggs.png" alt=""><br>Eggs</p></div>
+        <div class="product" id="coriander"><p><img src="coriander.png" alt=""><br>Coriander</p></div>
+    </div>
+        <hr>
+        <h4>...thet`s all...</h4>
+    
+</body>
+</html>
